@@ -1,0 +1,36 @@
+{
+  "META": {
+    "displayName": "Active users in alphabetical order by username",
+    "autoRun": true,
+    "creator": "diku_adin",
+    "created": "2021-11-03T15:16:24+0000",
+    "updated": "2021-11-03T15:16:24+0000",
+    "comment": "The second query, copied and modified from all-users"
+  },
+  "tables": [
+    {
+      "schema": "public",
+      "columnFilters": [
+        {
+          "key": "active",
+          "value": "true"
+        }
+      ],
+      "showColumns": [
+        "barcode",
+        "created_date",
+        "type",
+        "username"
+      ],
+      "orderBy": [
+        {
+          "direction": "asc",
+          "nulls": "end",
+          "key": "username"
+        }
+      ],
+      "limit": 100,
+      "tableName": "user_users"
+    }
+  ]
+}
