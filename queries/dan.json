@@ -1,0 +1,33 @@
+{
+  "tables": [
+    {
+      "schema": "public",
+      "columnFilters": [
+        {}
+      ],
+      "showColumns": [
+        "active",
+        "barcode",
+        "created_date",
+        "type",
+        "username"
+      ],
+      "orderBy": [
+        {
+          "direction": "asc",
+          "nulls": "end",
+          "key": "username"
+        }
+      ],
+      "limit": 100,
+      "tableName": "user_users"
+    }
+  ],
+  "META": {
+    "displayName": "Dan's query",
+    "autoRun": true,
+    "creator": "diku_admin",
+    "created": "2021-11-10T15:38:50.096Z",
+    "comment": "d"
+  }
+}
