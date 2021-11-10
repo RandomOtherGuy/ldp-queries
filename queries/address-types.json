@@ -1,0 +1,30 @@
+{
+  "tables": [
+    {
+      "schema": "public",
+      "columnFilters": [
+        {}
+      ],
+      "showColumns": [
+        "address_type",
+        "desc"
+      ],
+      "orderBy": [
+        {
+          "key": "address_type",
+          "direction": "asc",
+          "nulls": "end"
+        }
+      ],
+      "limit": 100,
+      "tableName": "user_addresstypes"
+    }
+  ],
+  "META": {
+    "displayName": "Address Types in alphabetical order",
+    "autoRun": true,
+    "creator": "diku_admin",
+    "created": "2021-11-10T15:45:56.520Z",
+    "comment": "ID is omitted"
+  }
+}
