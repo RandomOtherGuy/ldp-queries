@@ -1,0 +1,23 @@
+{
+  "tables": [
+    {
+      "schema": "public",
+      "tableName": "user_groups",
+      "columnFilters": [
+        {}
+      ],
+      "showColumns": [
+        "id",
+        "desc",
+        "group"
+      ],
+      "orderBy": [],
+      "limit": 100
+    }
+  ],
+  "META": {
+    "autoRun": true,
+    "creator": "diku_admin",
+    "created": "2021-11-11T13:07:36.769Z"
+  }
+}
