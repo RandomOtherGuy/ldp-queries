@@ -1,0 +1,32 @@
+{
+  "tables": [
+    {
+      "schema": "public",
+      "columnFilters": [
+        {}
+      ],
+      "showColumns": [
+        "active",
+        "barcode",
+        "created_date",
+        "type",
+        "username"
+      ],
+      "orderBy": [
+        {
+          "direction": "asc",
+          "nulls": "end",
+          "key": "username"
+        }
+      ],
+      "limit": 100,
+      "tableName": "user_users"
+    }
+  ],
+  "META": {
+    "displayName": "Query with autoRun set false",
+    "autoRun": false,
+    "creator": "diku_admin",
+    "created": "2021-11-11T11:54:03.211Z"
+  }
+}
