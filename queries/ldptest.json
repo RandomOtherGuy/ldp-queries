@@ -1,0 +1,20 @@
+{
+  "tables": [
+    {
+      "schema": "folio_reporting",
+      "columnFilters": [
+        {}
+      ],
+      "showColumns": [],
+      "orderBy": [],
+      "limit": 100,
+      "tableName": "holdings_ext"
+    }
+  ],
+  "META": {
+    "displayName": "ldptest",
+    "autoRun": false,
+    "creator": "diku_admin",
+    "created": "2022-01-25T08:06:34.489Z"
+  }
+}
