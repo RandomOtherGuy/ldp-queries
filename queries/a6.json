@@ -1,0 +1,19 @@
+{
+  "tables": [
+    {
+      "schema": "public",
+      "tableName": null,
+      "columnFilters": [
+        {}
+      ],
+      "showColumns": [],
+      "orderBy": [],
+      "limit": "100"
+    }
+  ],
+  "META": {
+    "autoRun": true,
+    "creator": "diku_admin",
+    "created": "2022-02-02T18:28:32.516Z"
+  }
+}
