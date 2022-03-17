@@ -1,0 +1,24 @@
+{
+  "tables": [
+    {
+      "schema": "public",
+      "tableName": "inventory_holdings",
+      "columnFilters": [
+        {
+          "key": "call_number"
+        }
+      ],
+      "showColumns": [
+        "call_number"
+      ],
+      "orderBy": [],
+      "limit": 100
+    }
+  ],
+  "META": {
+    "displayName": "Test edited query",
+    "autoRun": true,
+    "creator": "diku_admin",
+    "created": "2022-03-17T14:59:56.550Z"
+  }
+}
