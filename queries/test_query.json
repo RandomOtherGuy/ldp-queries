@@ -1,0 +1,21 @@
+{
+  "tables": [
+    {
+      "schema": "public",
+      "tableName": "course_courses",
+      "columnFilters": [
+        {}
+      ],
+      "showColumns": [],
+      "orderBy": [],
+      "limit": 100
+    }
+  ],
+  "META": {
+    "displayName": "A testing query",
+    "autoRun": true,
+    "creator": "diku_admin",
+    "created": "2022-03-17T18:01:44.742Z",
+    "comment": "this is my test"
+  }
+}
