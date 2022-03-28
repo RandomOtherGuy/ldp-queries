@@ -1,0 +1,28 @@
+{
+  "tables": [
+    {
+      "schema": "public",
+      "tableName": "circulation_loans",
+      "columnFilters": [
+        {
+          "key": "action",
+          "value": "checkedout"
+        }
+      ],
+      "showColumns": [
+        "id",
+        "action",
+        "due_date",
+        "user_id"
+      ],
+      "orderBy": [],
+      "limit": 100
+    }
+  ],
+  "META": {
+    "displayName": "Mike's test",
+    "autoRun": true,
+    "creator": "diku_admin",
+    "created": "2022-03-28T16:12:34.176Z"
+  }
+}
