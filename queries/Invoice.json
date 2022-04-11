@@ -1,0 +1,19 @@
+{
+  "tables": [
+    {
+      "schema": "public",
+      "tableName": "invoice_lines",
+      "columnFilters": [
+        {}
+      ],
+      "showColumns": [],
+      "orderBy": [],
+      "limit": 100
+    }
+  ],
+  "META": {
+    "autoRun": false,
+    "creator": "diku_admin",
+    "created": "2022-04-11T00:44:44.051Z"
+  }
+}
