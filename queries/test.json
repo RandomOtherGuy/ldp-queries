@@ -1,0 +1,31 @@
+{
+  "tables": [
+    {
+      "schema": "public",
+      "tableName": "circulation_loans",
+      "columnFilters": [
+        {
+          "key": "loan_date"
+        },
+        null,
+        null
+      ],
+      "showColumns": [
+        "renewal_count",
+        "return_date",
+        "claimed_returned_date",
+        "item_status",
+        "system_return_date"
+      ],
+      "orderBy": [],
+      "limit": "100"
+    }
+  ],
+  "META": {
+    "displayName": "test",
+    "autoRun": true,
+    "creator": "diku_admin",
+    "created": "2022-04-15T13:22:04.699Z",
+    "comment": "test"
+  }
+}
