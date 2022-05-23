@@ -1,0 +1,21 @@
+{
+  "tables": [
+    {
+      "schema": "public",
+      "columnFilters": [
+        {}
+      ],
+      "showColumns": [],
+      "orderBy": [],
+      "limit": 100,
+      "tableName": "inventory_items"
+    }
+  ],
+  "META": {
+    "displayName": "Iventory Items",
+    "autoRun": true,
+    "creator": "diku_admin",
+    "created": "2022-05-23T13:12:12.549Z",
+    "comment": "test for deletion"
+  }
+}
