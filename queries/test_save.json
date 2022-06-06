@@ -1,0 +1,25 @@
+{
+  "tables": [
+    {
+      "schema": "public",
+      "tableName": "inventory_items",
+      "columnFilters": [
+        {}
+      ],
+      "showColumns": [
+        "id",
+        "barcode",
+        "chronology",
+        "hrid"
+      ],
+      "orderBy": [],
+      "limit": "10"
+    }
+  ],
+  "META": {
+    "displayName": "test-save",
+    "autoRun": true,
+    "creator": "e_pennington",
+    "created": "2022-06-06T15:21:55.871Z"
+  }
+}
