@@ -1,0 +1,20 @@
+{
+  "tables": [
+    {
+      "schema": "folio_reporting",
+      "columnFilters": [
+        {}
+      ],
+      "showColumns": [],
+      "orderBy": [],
+      "limit": 100,
+      "tableName": "loans_items"
+    }
+  ],
+  "META": {
+    "displayName": "folio_reporting",
+    "autoRun": true,
+    "creator": "diku_admin",
+    "created": "2022-07-04T07:24:15.973Z"
+  }
+}
