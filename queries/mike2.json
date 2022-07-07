@@ -1,0 +1,33 @@
+{
+  "tables": [
+    {
+      "schema": "public",
+      "columnFilters": [
+        {}
+      ],
+      "showColumns": [
+        "active",
+        "barcode",
+        "created_date",
+        "type",
+        "username"
+      ],
+      "orderBy": [
+        {
+          "direction": "asc",
+          "nulls": "end",
+          "key": "username"
+        }
+      ],
+      "limit": 100,
+      "tableName": "user_users"
+    }
+  ],
+  "META": {
+    "displayName": "Mike 2",
+    "autoRun": true,
+    "creator": "diku_admin",
+    "created": "2022-07-07T14:07:14.389Z",
+    "comment": "Autorun is on"
+  }
+}
