@@ -1,0 +1,20 @@
+{
+  "tables": [
+    {
+      "schema": "public",
+      "columnFilters": [
+        {}
+      ],
+      "showColumns": [],
+      "orderBy": [],
+      "limit": 100,
+      "tableName": "course_courses"
+    }
+  ],
+  "META": {
+    "displayName": "couse_courses",
+    "autoRun": true,
+    "creator": "diku_admin",
+    "created": "2022-07-21T17:31:12.855Z"
+  }
+}
