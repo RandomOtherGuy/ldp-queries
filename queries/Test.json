@@ -1,0 +1,20 @@
+{
+  "tables": [
+    {
+      "schema": "folio_reporting",
+      "columnFilters": [
+        {}
+      ],
+      "showColumns": [],
+      "orderBy": [],
+      "limit": "1000",
+      "tableName": "instance_formats"
+    }
+  ],
+  "META": {
+    "displayName": "Test Saved Query",
+    "autoRun": true,
+    "creator": "diku_admin",
+    "created": "2022-08-25T21:53:37.254Z"
+  }
+}
