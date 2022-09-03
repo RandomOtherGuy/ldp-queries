@@ -1,0 +1,35 @@
+{
+  "tables": [
+    {
+      "schema": "public",
+      "columnFilters": [
+        {
+          "key": "active",
+          "value": "true"
+        }
+      ],
+      "showColumns": [
+        "barcode",
+        "created_date",
+        "type",
+        "username"
+      ],
+      "orderBy": [
+        {
+          "direction": "asc",
+          "nulls": "end",
+          "key": "username"
+        }
+      ],
+      "limit": 100,
+      "tableName": "user_users"
+    }
+  ],
+  "META": {
+    "displayName": "test1",
+    "autoRun": true,
+    "creator": "diku_admin",
+    "created": "2022-09-03T08:44:07.368Z",
+    "comment": "test1"
+  }
+}
