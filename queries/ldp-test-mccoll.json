@@ -1,0 +1,21 @@
+{
+  "tables": [
+    {
+      "schema": "public",
+      "columnFilters": [
+        {}
+      ],
+      "showColumns": [],
+      "orderBy": [],
+      "limit": "1000",
+      "tableName": "course_courses"
+    }
+  ],
+  "META": {
+    "displayName": "ldp-app-test-save-query",
+    "autoRun": true,
+    "creator": "diku_admin",
+    "created": "2022-11-07T17:50:22.313Z",
+    "comment": "testing to see if save query is working"
+  }
+}
