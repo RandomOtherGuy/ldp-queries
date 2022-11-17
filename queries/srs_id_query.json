@@ -1,0 +1,23 @@
+{
+  "tables": [
+    {
+      "schema": "public",
+      "columnFilters": [
+        {
+          "key": "srs_id",
+          "value": "9a657a16-672a-11eb-8681-aed9fae510e9"
+        }
+      ],
+      "showColumns": [],
+      "orderBy": [],
+      "limit": 100,
+      "tableName": "srs_marctab"
+    }
+  ],
+  "META": {
+    "displayName": "SRS ID query",
+    "autoRun": true,
+    "creator": "id_admin",
+    "created": "2022-11-17T16:12:35.932Z"
+  }
+}
