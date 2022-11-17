@@ -1,0 +1,25 @@
+{
+  "tables": [
+    {
+      "schema": "folio_reporting",
+      "columnFilters": [
+        {
+          "key": "fee_fine_type",
+          "op": "<>",
+          "value": "Overdue fine"
+        }
+      ],
+      "showColumns": [],
+      "orderBy": [],
+      "limit": 100,
+      "tableName": "feesfines_accounts_actions"
+    }
+  ],
+  "META": {
+    "displayName": "MDG Fee Fine Not Overdue",
+    "autoRun": false,
+    "creator": "id_admin",
+    "created": "2022-11-17T14:51:05.807Z",
+    "comment": "For demo purposes."
+  }
+}
