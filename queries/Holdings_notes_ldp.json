@@ -1,0 +1,20 @@
+{
+  "tables": [
+    {
+      "schema": "public",
+      "tableName": "inventory_holdings_note_types",
+      "columnFilters": [
+        {}
+      ],
+      "showColumns": [],
+      "orderBy": [],
+      "limit": 100
+    }
+  ],
+  "META": {
+    "displayName": "Holdings notes",
+    "autoRun": true,
+    "creator": "cw",
+    "created": "2022-11-22T19:20:47.558Z"
+  }
+}
