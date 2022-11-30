@@ -1,0 +1,30 @@
+{
+  "tables": [
+    {
+      "schema": "folio_reporting",
+      "columnFilters": [
+        {
+          "key": "item_status",
+          "value": "Available"
+        },
+        null
+      ],
+      "showColumns": [],
+      "orderBy": [
+        {
+          "direction": "asc",
+          "nulls": "end",
+          "key": "loan_due_date"
+        }
+      ],
+      "limit": "100",
+      "tableName": "loans_items"
+    }
+  ],
+  "META": {
+    "displayName": "Mike's latest",
+    "autoRun": true,
+    "creator": "id_admin",
+    "created": "2022-11-30T18:33:57.997Z"
+  }
+}
