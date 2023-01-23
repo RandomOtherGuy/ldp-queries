@@ -1,0 +1,23 @@
+{
+  "tables": [
+    {
+      "schema": "public",
+      "columnFilters": [
+        {
+          "key": "format",
+          "value": "Physical"
+        }
+      ],
+      "showColumns": [],
+      "orderBy": [],
+      "limit": "1000",
+      "tableName": "po_pieces"
+    }
+  ],
+  "META": {
+    "displayName": "lm-testing-save",
+    "autoRun": false,
+    "creator": "diku_admin",
+    "created": "2023-01-23T15:49:04.245Z"
+  }
+}
