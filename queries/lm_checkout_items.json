@@ -1,0 +1,23 @@
+{
+  "tables": [
+    {
+      "schema": "folio_reporting",
+      "columnFilters": [
+        {
+          "key": "item_status",
+          "value": "Checked out"
+        }
+      ],
+      "showColumns": [],
+      "orderBy": [],
+      "limit": "1000",
+      "tableName": "loans_items"
+    }
+  ],
+  "META": {
+    "displayName": "lm-checkout-items",
+    "autoRun": true,
+    "creator": "diku_admin",
+    "created": "2023-01-23T15:51:40.427Z"
+  }
+}
