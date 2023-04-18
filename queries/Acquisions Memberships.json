@@ -1,0 +1,19 @@
+{
+  "tables": [
+    {
+      "schema": "public",
+      "tableName": "acquisitions_memberships",
+      "columnFilters": [
+        {}
+      ],
+      "showColumns": [],
+      "orderBy": [],
+      "limit": 100
+    }
+  ],
+  "META": {
+    "autoRun": true,
+    "creator": "diku_admin",
+    "created": "2023-04-18T14:10:38.514Z"
+  }
+}
